@@ -8,7 +8,7 @@ description = "Rusty bindings to libsystemd"
 readme = "README.md"
 documentation = "https://docs.rs/systematic"
 repository = "https://github.com/verdiwm/systematic"
-include = ["src/**/*.rs", "README.md", "LICENSE"]
+include = ["src/**/*.rs", "build.rs", "README.md", "LICENSE"]
 
 [dependencies]
 
