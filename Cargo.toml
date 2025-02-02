@@ -1,6 +1,16 @@
 [package]
 name = "systematic"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
+license = "Apache-2.0"
+authors = ["Federico Maria Morrone <contact@morrone.dev>"]
+description = "Rusty bindings to libsystemd"
+readme = "README.md"
+documentation = "https://docs.rs/systematic"
+repository = "https://github.com/verdiwm/systematic"
+include = ["src/**/*.rs", "README.md", "LICENSE"]
 
 [dependencies]
+
+[build-dependencies]
+pkg-config = "0.3.31"
